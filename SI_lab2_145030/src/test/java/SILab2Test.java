@@ -18,14 +18,14 @@ public class SILab2Test {
 
         @Test
             void multipleConditions(){
-            IllegalArgumentException ;
-            List<String> slucaj2=List.of("a","12"," ");
+            IllegalArgumentException sameUsameP;
+            List<String> slucaj2 = List.of("a","12"," ");
             sameUsameP=assertThrows(IllegalArgumentException.class, () -> SILab2.function(slucaj2));
             return assertTrue(informationMissing.getMessage().contains("User name and password are the same"));
 
         }
 
-        }
+     
 
 
 
