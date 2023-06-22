@@ -1,5 +1,4 @@
 
-Andrea Lekoska 145030
 
 Control Flow Graph(прикачен како фајл)
 
